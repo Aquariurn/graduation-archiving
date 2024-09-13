@@ -8,6 +8,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingHorizontal="40dp"
+        android:paddingVertical="10dp"
+        android:layout_margin ="15dp"
+        android:background="@drawable/round_square"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -18,7 +21,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="렛 풀 다운"
-            android:textSize="20dp" />
+            android:textSize="20dp"
+            android:textColor="@color/white"/>
 
         <View
             android:layout_width="0dp"
@@ -28,7 +32,9 @@
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="세트 수" />
+            android:hint="세트 수"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -36,7 +42,8 @@
             android:layout_gravity="center"
             android:paddingLeft="10dp"
             android:text="세트"
-            android:textSize="20dp" />
+            android:textSize="20dp"
+            android:textColor="@color/white"/>
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

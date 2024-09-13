@@ -25,8 +25,7 @@
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/account_circle_24dp_5f6368_fill0_wght400_grad0_opsz24" />
-
+                android:background="@drawable/chevron_left_40dp_5f6368_fill0_wght400_grad0_opsz40"/>
             <View
                 android:layout_width="0dp"
                 android:layout_height="0dp"
@@ -49,7 +48,7 @@
 
         <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="500dp"
             tools:listitem="@layout/workout_item" />
 
         <Button
