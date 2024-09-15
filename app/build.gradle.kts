@@ -7,6 +7,10 @@ android {
     namespace = "com.example.growinganchovyman"
     compileSdk = 34
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.example.growinganchovyman"
         minSdk = 24

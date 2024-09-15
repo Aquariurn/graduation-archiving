@@ -7,9 +7,9 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingHorizontal="40dp"
+        android:paddingLeft="20dp"
         android:paddingVertical="10dp"
-        android:layout_margin ="15dp"
+        android:layout_margin ="10dp"
         android:background="@drawable/round_square"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -17,9 +17,11 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
+            android:id="@+id/workoutName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
             android:text="렛 풀 다운"
             android:textSize="20dp"
             android:textColor="@color/white"/>
@@ -29,21 +31,13 @@
             android:layout_height="0dp"
             android:layout_weight="1" />
 
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="세트 수"
-            android:textColorHint="@color/white"
-            android:textColor="@color/white"/>
 
-        <TextView
+        <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:paddingLeft="10dp"
-            android:text="세트"
-            android:textSize="20dp"
-            android:textColor="@color/white"/>
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/delete_24dp_5f6368_fill0_wght400_grad0_opsz24"/>
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
